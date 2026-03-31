@@ -75,16 +75,38 @@ Overall, this data model captures the full operational flow of Jittery Joe’s�
 
 ## Queries 
 1. List all employees by store
-This query retrieves every employee and groups them according to the store they work at. Because each employee is linked to a specific store through a foreign key, this query allows us to see staffing distribution across all Jittery Joe’s locations.
 
-2. Show all products within their category
-This query displays all menu items or merchandise items organized by their category (such as “Coffee,” “Tea,” “Pastries,” or “Apparel”). It helps the business understand how products are grouped and ensures that items are categorized correctly.
+<img width="1026" height="691" alt="Screenshot 2026-03-31 at 3 20 37 PM" src="https://github.com/user-attachments/assets/02cfee2b-c3b1-422e-b0ea-64f2ffb93d52" />
 
-3. Show all supplier orders and their status
-This query pulls information from the SupplierItem and Suppliers tables to show what items have been shipped, when they were shipped, and the status of the supplier. It provides visibility into the supply chain and helps track incoming inventory.
+2. Show all products by category
 
-4. Find customers who don’t have a rewards account
-This query identifies customers who are not enrolled in the loyalty program by checking for customers without a corresponding record in the Loyalty table. It can be used for marketing outreach or to encourage more customers to join the rewards program.
+<img width="937" height="632" alt="Screenshot 2026-03-31 at 3 21 45 PM" src="https://github.com/user-attachments/assets/4f8da0f5-9457-42ea-b198-eae26384c733" />
+
+3. Inventory levels by store in descending order
+<img width="950" height="638" alt="Screenshot 2026-03-31 at 3 22 25 PM" src="https://github.com/user-attachments/assets/ea2f7325-d94d-405d-8e0b-bb25cb573ada" />
+
+4. Revenue by payment type
+<img width="936" height="614" alt="Screenshot 2026-03-31 at 3 24 25 PM" src="https://github.com/user-attachments/assets/02633423-a076-4b45-8265-685813e6209c" />
+
+5. Average order value by store
+<img width="940" height="620" alt="Screenshot 2026-03-31 at 3 25 18 PM" src="https://github.com/user-attachments/assets/09d9defc-c578-4070-957b-1f8bb2da141d" />
+
+6. Most popular menu items by total quantity sold
+<img width="941" height="623" alt="Screenshot 2026-03-31 at 3 25 54 PM" src="https://github.com/user-attachments/assets/81d0d382-34a8-4864-868c-e6e9b2d897fb" />
+
+7. Stores above average revenue
+<img width="943" height="625" alt="Screenshot 2026-03-31 at 3 26 41 PM" src="https://github.com/user-attachments/assets/8e21dd00-6dd8-4ea7-8f9a-ba7cce183d45" />
+
+8. Stores with low inventory that need to reorder
+<img width="943" height="614" alt="Screenshot 2026-03-31 at 3 27 31 PM" src="https://github.com/user-attachments/assets/b884d977-5a75-48b8-953d-820ef576a569" />
+
+9. Show the customer who spent the most
+<img width="659" height="468" alt="Screenshot 2026-03-31 at 3 28 05 PM" src="https://github.com/user-attachments/assets/f18ad29c-8408-4869-a179-d19887bd3a9d" />
+
+10. What menu items generate above average revenue 
+<img width="831" height="622" alt="Screenshot 2026-03-31 at 3 29 13 PM" src="https://github.com/user-attachments/assets/41d52fac-9989-460c-a956-d5666ad24d70" />
+
+
 
 ## Assumption
 

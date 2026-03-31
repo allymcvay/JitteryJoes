@@ -33,6 +33,17 @@ Overall, this data model captures the full operational flow of Jittery Joe’s�
 
 
 ## Data Dictionary 
+<img width="623" height="611" alt="Screenshot 2026-03-31 at 1 04 39 PM" src="https://github.com/user-attachments/assets/44a6ab8f-cc26-48fb-870c-0ef11535b54c" />
+
+<img width="644" height="621" alt="Screenshot 2026-03-31 at 1 04 59 PM" src="https://github.com/user-attachments/assets/1af5ba35-a235-427e-bf1e-659aa9f55c6b" />
+
+<img width="637" height="552" alt="Screenshot 2026-03-31 at 1 05 19 PM" src="https://github.com/user-attachments/assets/0e81dcc8-0e5f-405c-bcd9-a311f9c886d1" />
+<img width="645" height="624" alt="Screenshot 2026-03-31 at 1 07 50 PM" src="https://github.com/user-attachments/assets/6310ca44-7dec-4f31-83f7-232e28d4556e" />
+
+<img width="687" height="607" alt="Screenshot 2026-03-31 at 1 08 11 PM" src="https://github.com/user-attachments/assets/e60e9a79-6975-48ec-8c8e-23d610b651af" />
+<img width="681" height="438" alt="Screenshot 2026-03-31 at 1 08 24 PM" src="https://github.com/user-attachments/assets/19fb839d-03e6-4f80-ad5c-f3c88c3f17e0" />
+<img width="616" height="578" alt="Screenshot 2026-03-31 at 1 08 52 PM" src="https://github.com/user-attachments/assets/ac15f640-714c-4451-8b8f-636ba1b6bb78" />
+
 
 ## Queries 
 1. List all employees by store

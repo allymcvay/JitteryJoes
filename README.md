@@ -33,16 +33,32 @@ Overall, this data model captures the full operational flow of Jittery Joe’s�
 
 
 ## Data Dictionary 
+customers
 <img width="623" height="611" alt="Screenshot 2026-03-31 at 1 04 39 PM" src="https://github.com/user-attachments/assets/44a6ab8f-cc26-48fb-870c-0ef11535b54c" />
-
+employees
 <img width="644" height="621" alt="Screenshot 2026-03-31 at 1 04 59 PM" src="https://github.com/user-attachments/assets/1af5ba35-a235-427e-bf1e-659aa9f55c6b" />
-
+equipment
 <img width="637" height="552" alt="Screenshot 2026-03-31 at 1 05 19 PM" src="https://github.com/user-attachments/assets/0e81dcc8-0e5f-405c-bcd9-a311f9c886d1" />
+inventory
 <img width="645" height="624" alt="Screenshot 2026-03-31 at 1 07 50 PM" src="https://github.com/user-attachments/assets/6310ca44-7dec-4f31-83f7-232e28d4556e" />
-
+loyalty
 <img width="687" height="607" alt="Screenshot 2026-03-31 at 1 08 11 PM" src="https://github.com/user-attachments/assets/e60e9a79-6975-48ec-8c8e-23d610b651af" />
+menuItem
 <img width="681" height="438" alt="Screenshot 2026-03-31 at 1 08 24 PM" src="https://github.com/user-attachments/assets/19fb839d-03e6-4f80-ad5c-f3c88c3f17e0" />
+Merchandise
 <img width="616" height="578" alt="Screenshot 2026-03-31 at 1 08 52 PM" src="https://github.com/user-attachments/assets/ac15f640-714c-4451-8b8f-636ba1b6bb78" />
+orderItem
+<img width="678" height="637" alt="Screenshot 2026-03-31 at 1 12 47 PM" src="https://github.com/user-attachments/assets/0938a01d-553f-4d9c-b58a-c1e812c6071f" />
+Orders
+<img width="610" height="652" alt="Screenshot 2026-03-31 at 1 14 07 PM" src="https://github.com/user-attachments/assets/920968f7-302e-4755-a576-3d6d2b5cf4f6" />
+payment
+<img width="631" height="646" alt="Screenshot 2026-03-31 at 1 16 39 PM" src="https://github.com/user-attachments/assets/54103c85-716c-4167-ae71-fb7505ecd5ac" />
+store
+<img width="622" height="312" alt="Screenshot 2026-03-31 at 1 16 58 PM" src="https://github.com/user-attachments/assets/49c09f7c-dec3-44d9-ba6e-c0b2c7c860de" />
+supplierItem
+<img width="651" height="453" alt="Screenshot 2026-03-31 at 1 17 09 PM" src="https://github.com/user-attachments/assets/18037b95-b169-4783-a909-c2b441b8e6f0" />
+suppliers
+<img width="624" height="397" alt="Screenshot 2026-03-31 at 1 17 25 PM" src="https://github.com/user-attachments/assets/98539d96-6abe-4d13-b098-61f5ca96175b" />
 
 
 ## Queries 

@@ -49,4 +49,4 @@ This query identifies customers who are not enrolled in the loyalty program by c
 
 ## Assumption
 
-“LoyaltyID is stored redundantly to preserve the customer’s loyalty tier at the time of the order/payment, since loyalty status can change over time.”
+LoyaltyID is stored redundantly to preserve the customer’s loyalty tier at the time of the order/payment, since loyalty status can change over time.

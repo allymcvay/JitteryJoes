@@ -5,8 +5,8 @@
   
 ## Group Member
   1. Ally McVay
-  2. Sydney Pratt
-  3. Casey Whichard
+  2. Sydney Pratt  scp31975/Jiterry-Joe-s-
+  3. Casey Whichard  https://github.com/caseywhichard/Jittery-Joes
   4. Mino Guzman
      
 ## Problem Description

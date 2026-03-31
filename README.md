@@ -31,3 +31,17 @@ Overall, this data model captures the full operational flow of Jittery Joe’s�
 
 <img width="1244" height="1258" alt="image" src="https://github.com/user-attachments/assets/766829d7-abb6-4aea-b3d0-2e9c8f1b2ccc" />
 
+## Data Dictionary 
+
+## Queries 
+1. List all employees by store
+This query retrieves every employee and groups them according to the store they work at. Because each employee is linked to a specific store through a foreign key, this query allows us to see staffing distribution across all Jittery Joe’s locations.
+
+2. Show all products within their category
+This query displays all menu items or merchandise items organized by their category (such as “Coffee,” “Tea,” “Pastries,” or “Apparel”). It helps the business understand how products are grouped and ensures that items are categorized correctly.
+
+3. Show all supplier orders and their status
+This query pulls information from the SupplierItem and Suppliers tables to show what items have been shipped, when they were shipped, and the status of the supplier. It provides visibility into the supply chain and helps track incoming inventory.
+
+4. Find customers who don’t have a rewards account
+This query identifies customers who are not enrolled in the loyalty program by checking for customers without a corresponding record in the Loyalty table. It can be used for marketing outreach or to encourage more customers to join the rewards program.

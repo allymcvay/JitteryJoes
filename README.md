@@ -75,8 +75,7 @@ Overall, this data model captures the full operational flow of Jittery Joe’s�
 
 ## Queries 
 1. List all employees by store
-
-<img width="1026" height="691" alt="Screenshot 2026-03-31 at 3 20 37 PM" src="https://github.com/user-attachments/assets/02cfee2b-c3b1-422e-b0ea-64f2ffb93d52" />
+<img width="1158" height="687" alt="Screenshot 2026-03-31 at 4 20 26 PM" src="https://github.com/user-attachments/assets/a1bb094e-81ae-489c-9acc-2c98a9d3f77b" />
 
 2. Show all products by category
 

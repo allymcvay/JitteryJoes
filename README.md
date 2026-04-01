@@ -74,37 +74,45 @@ Overall, this data model captures the full operational flow of Jittery Joe’s�
 
 
 ## Queries 
-1. List all employees by store
-<img width="1158" height="687" alt="Screenshot 2026-03-31 at 4 20 26 PM" src="https://github.com/user-attachments/assets/a1bb094e-81ae-489c-9acc-2c98a9d3f77b" />
+### 1. List all cafe managers that are seasonal
+<img width="622" height="404" alt="Screenshot 2026-03-31 at 8 02 52 PM" src="https://github.com/user-attachments/assets/ba85b380-15cc-4c04-8247-ae8bd9d19134" />
+This query allows leadership to quickly identify which café managers are employed on a seasonal basis. Seasonal managers typically work only during peak periods, such as the academic year or high‑traffic months. Knowing exactly who these managers are helps the organization anticipate staffing gaps when the season ends. This ensures that stores relying on seasonal leadership receive the necessary support, training, or replacement coverage ahead of time. By isolating seasonal managers, the café can better plan for continuity, maintain service quality, and allocate resources to locations that may need additional managerial oversight once seasonal staff depart.
 
-2. Show all products by category
+### 2. Show all items on the menu that have never been ordered
+<img width="628" height="418" alt="Screenshot 2026-03-31 at 8 03 12 PM" src="https://github.com/user-attachments/assets/54fea064-087e-4b65-83a7-d9cadeec12ea" />
+This query helps managers identify which menu items have never been purchased. Items with zero orders may signal low visibility, poor appeal, or unnecessary complexity on the menu. By isolating these products, managers can decide whether to promote them, adjust pricing, or remove them to reduce waste and streamline inventory.
 
-<img width="937" height="632" alt="Screenshot 2026-03-31 at 3 21 45 PM" src="https://github.com/user-attachments/assets/4f8da0f5-9457-42ea-b198-eae26384c733" />
+### 3.Show all orders and status
+<img width="621" height="483" alt="Screenshot 2026-03-31 at 8 03 26 PM" src="https://github.com/user-attachments/assets/54e126e0-9d7f-4e7c-922b-7ddc462ea8ca" />
+This query pulls information from the SupplierItem and Suppliers tables to show what items have been shipped, when they were shipped, and the status of the supplier. It provides visibility into the supply chain and helps track incoming inventory.
 
-3. Inventory levels by store in descending order
-<img width="950" height="638" alt="Screenshot 2026-03-31 at 3 22 25 PM" src="https://github.com/user-attachments/assets/ea2f7325-d94d-405d-8e0b-bb25cb573ada" />
+### 4. Revenue by payment type
+<img width="622" height="402" alt="Screenshot 2026-03-31 at 8 03 47 PM" src="https://github.com/user-attachments/assets/eeeb02b3-ef6c-40d1-a72c-e7841089aa24" />
+This query shows how much revenue comes from each card type, helping managers understand which cards customers use most. This makes it easier to plan for reliable payment processing, manage card‑related fees, and ensure the café’s systems support the most common payment methods efficiently.
 
-4. Revenue by payment type
-<img width="936" height="614" alt="Screenshot 2026-03-31 at 3 24 25 PM" src="https://github.com/user-attachments/assets/02633423-a076-4b45-8265-685813e6209c" />
+### 5. Average order value by store
+<img width="622" height="422" alt="Screenshot 2026-03-31 at 8 04 02 PM" src="https://github.com/user-attachments/assets/85a638e4-3e73-4572-bf51-b1574034560f" />
+This query calculates the average order value for each store and pairs it with key performance metrics such as total orders received and total revenue generated. By comparing stores based on their average order value, managers can quickly identify which locations are driving higher‑value transactions. Sorting the results in descending order makes it easier to prioritize high‑performing stores and recognize those that may need additional support, pricing adjustments, or promotional strategies to improve their average order size.
 
-5. Average order value by store
-<img width="940" height="620" alt="Screenshot 2026-03-31 at 3 25 18 PM" src="https://github.com/user-attachments/assets/09d9defc-c578-4070-957b-1f8bb2da141d" />
+### 6. Most popular menu items by total quantity sold
+<img width="624" height="403" alt="Screenshot 2026-03-31 at 8 04 23 PM" src="https://github.com/user-attachments/assets/42d0b19d-38d4-4bf2-8130-3ac1d93c7f0e" />
+This query ranks the popularity of each item based on the item’s total quantity sold. The query ranked each menu item by the number of units sold across all orders, while also calculating the total revenue generated from each item. The information provided became a useful way to identify bestsellers and top revenue-driving items
 
-6. Most popular menu items by total quantity sold
-<img width="941" height="623" alt="Screenshot 2026-03-31 at 3 25 54 PM" src="https://github.com/user-attachments/assets/81d0d382-34a8-4864-868c-e6e9b2d897fb" />
+### 7. Stores above average revenue
+<img width="627" height="433" alt="Screenshot 2026-03-31 at 8 04 49 PM" src="https://github.com/user-attachments/assets/5b2cdb1e-4a7a-458e-ae37-afb58bd975c5" />
+This query identifies which stores generate more revenue than the overall average across all locations. By first calculating each store’s total revenue and then using a subquery to determine the average of those totals, managers can clearly see which stores are outperforming expectations. Highlighting above‑average stores helps leadership recognize strong performers, allocate resources effectively, and understand which operational practices may be contributing to higher revenue.
 
-7. Stores above average revenue
-<img width="943" height="625" alt="Screenshot 2026-03-31 at 3 26 41 PM" src="https://github.com/user-attachments/assets/8e21dd00-6dd8-4ea7-8f9a-ba7cce183d45" />
+### 8. Stores with low inventory that need to reorder
+<img width="622" height="431" alt="Screenshot 2026-03-31 at 8 05 36 PM" src="https://github.com/user-attachments/assets/4b2027fb-5733-4c73-b029-a6b518d893ff" />
+This query identifies any item at a store whose current quantity has dropped below its designated reorder level. It also calculates how many additional units are needed to reach that threshold again. By sorting the results from most urgent to least urgent, managers can quickly see which stores and items require immediate restocking. This helps prevent stockouts, supports smoother operations, and ensures that high‑demand products remain available to customers.
 
-8. Stores with low inventory that need to reorder
-<img width="943" height="614" alt="Screenshot 2026-03-31 at 3 27 31 PM" src="https://github.com/user-attachments/assets/b884d977-5a75-48b8-953d-820ef576a569" />
+### 9. Show the customer who spent the most
+<img width="625" height="431" alt="Screenshot 2026-03-31 at 8 05 52 PM" src="https://github.com/user-attachments/assets/f389efb7-52cd-48b8-83d5-70771abcc3ae" />
+This query identifies the customer with the highest total spending across all their orders. The subquery calculates each customer’s total amount spent, finds the maximum value, and then matches that amount back to the specific customer’s name and ID. This helps managers quickly recognize top‑spending customers, understand purchasing behavior, and potentially target these high‑value customers for loyalty rewards or personalized promotions.
 
-9. Show the customer who spent the most
-<img width="659" height="468" alt="Screenshot 2026-03-31 at 3 28 05 PM" src="https://github.com/user-attachments/assets/f18ad29c-8408-4869-a179-d19887bd3a9d" />
-
-10. What menu items generate above average revenue 
-<img width="831" height="622" alt="Screenshot 2026-03-31 at 3 29 13 PM" src="https://github.com/user-attachments/assets/41d52fac-9989-460c-a956-d5666ad24d70" />
-
+### 10. What menu items generate above average revenue 
+<img width="621" height="455" alt="Screenshot 2026-03-31 at 8 06 08 PM" src="https://github.com/user-attachments/assets/0148eda7-e643-42c5-87e1-946fe089c01a" />
+This query identifies which menu items generate more revenue than the average item on the menu. Like the store‑level version, it calculates each item’s total revenue and compares it to the overall average, returning only the strongest performers. This helps managers quickly see which products drive the most sales, guiding decisions about promotion, pricing, and menu placement to maximize revenue.
 
 
 ## Assumption
